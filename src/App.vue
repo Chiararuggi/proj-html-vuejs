@@ -6,20 +6,19 @@ export default {
     AppHeader,
   },
   data() {
-    return {
-    };
+    return {};
   },
-  mounted() {
-  },
-  methods: {
-
-  },
+  mounted() {},
+  methods: {},
 };
 </script>
 
 <template>
+  <header>
+    <AppHeader />
+  </header>
+  <main></main>
+  <footer></footer>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
