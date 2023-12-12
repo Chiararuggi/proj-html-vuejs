@@ -2,11 +2,13 @@
 import AppSlider from "./AppSlider.vue";
 import AppAboutUs from "./AppAboutUs.vue";
 import AppServices from "./AppServices.vue";
+import AppChooseUs from "./AppChooseUs.vue";
 export default {
   components: {
     AppSlider,
     AppAboutUs,
     AppServices,
+    AppChooseUs
   },
   data() {
     return {};
@@ -28,6 +30,7 @@ export default {
         <AppServices/>
       </div>
     </div>
+    <AppChooseUs />
 </template>
 
 <style scoped>
