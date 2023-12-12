@@ -3,12 +3,14 @@ import AppSlider from "./AppSlider.vue";
 import AppAboutUs from "./AppAboutUs.vue";
 import AppServices from "./AppServices.vue";
 import AppChooseUs from "./AppChooseUs.vue";
+import AppReview from "./AppReview.vue";
 export default {
   components: {
     AppSlider,
     AppAboutUs,
     AppServices,
-    AppChooseUs
+    AppChooseUs,
+    AppReview,
   },
   data() {
     return {};
@@ -31,6 +33,9 @@ export default {
       </div>
     </div>
     <AppChooseUs />
+    <div class="container">
+      <AppReview />
+    </div>
 </template>
 
 <style scoped>
