@@ -1,5 +1,19 @@
-<script></script>
+<script>
+import AppSlider from "./AppSlider.vue";
+export default {
+  components: {
+    AppSlider,
+  },
+  data() {
+    return {};
+  },
+  mounted() {},
+  methods: {},
+};
+</script>
 
-<template></template>
+<template>
+    <AppSlider />
+</template>
 
 <style scoped></style>
