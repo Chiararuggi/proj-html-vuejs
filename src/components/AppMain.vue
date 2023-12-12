@@ -1,8 +1,10 @@
 <script>
 import AppSlider from "./AppSlider.vue";
+import AppAboutUs from "./AppAboutUs.vue";
 export default {
   components: {
     AppSlider,
+    AppAboutUs,
   },
   data() {
     return {};
@@ -14,6 +16,11 @@ export default {
 
 <template>
     <AppSlider />
+    <div class="my-container">
+      <div class="container">
+        <AppAboutUs />
+      </div>
+    </div>
 </template>
 
 <style scoped></style>
