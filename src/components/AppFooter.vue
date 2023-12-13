@@ -1,12 +1,15 @@
 <script>
 import AppNewsletter from "./AppNewsletter.vue";
+import { store } from "../store.js"
 
 export default {
   components: {
     AppNewsletter,
   },
   data() {
-    return {};
+    return {
+      store
+    };
   },
   mounted() {},
   methods: {},
@@ -37,21 +40,44 @@ export default {
           >
             <h4>Support</h4>
             <ul>
-              <li>list 1</li>
-              <li>list 2</li>
-              <li>list 3</li>
-              <li>list 4</li>
-              <li>list 5</li>
+              <li v-for="url in this.store.supportLinks">
+              <a :href="url.url">{{ url.title }}</a>
+              </li>
+
             </ul>
           </div>
         </div>
-        <div class="col-2"></div>
-        <div class="col-2"></div>
+        <div class="col-2">
+          <div
+            class="my-list d-flex flex-column"
+          >
+            <h4>About</h4>
+            <ul>
+              <li v-for="url in store.aboutLinks">
+              <a :href="url.url">{{ url.title }}</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-2">
+          <div
+            class="my-list d-flex flex-column"
+          >
+            <h4>Faq</h4>
+            <ul>
+              <li v-for="url in store.faqLinks">
+              <a :href="url.url">{{ url.title }}</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
         <div class="col-3">
           <h4>Contact Me</h4>
-          <div class="my-userinfo">placeholder</div>
-          <div class="my-userinfo">placeholder</div>
-          <div class="my-userinfo">placeholder</div>
+          <div class="my-userinfo" v-for="email in store.contacts">{{ email.email }}</div>
+          <div class="my-userinfo" v-for="phone in store.contacts">{{ phone.phone }}</div>
+          <div class="my-userinfo" v-for="address in store.contacts">{{ address.address }}</div>
         </div>
       </div>
     </div>
@@ -84,9 +110,13 @@ ul{
   padding:0;
 }
 
-li {
-  color: #8a8b8f;
+li{
   list-style-type: none;
+}
+
+a{
+  color: #8a8b8f;
+  text-decoration: none;
 }
 
 .my-userinfo {

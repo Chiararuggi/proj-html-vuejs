@@ -1,5 +1,6 @@
 <script>
 import { store } from "../store.js"
+
 export default {
   components: {},
   data() {
@@ -18,8 +19,8 @@ export default {
       <div class="row">
         <div class="col-6">
           <div class="d-flex align-items-center h-100 justify-content-start">
-            <span>info@example.com</span>
-            <span>+1(817)901 3377</span>
+            <span v-for="email in store.contacts">{{ email.email }}</span>
+            <span v-for="phone in store.contacts">{{ phone.phone }}</span>
           </div>
         </div>
         <div class="col-6">
@@ -46,7 +47,7 @@ export default {
         </div>
         <div class="col-8">
           <div class="d-flex align-items-center h-100 justify-content-end">
-            <a :href="url.url" v-for="url in this.store.headerLinks">{{url.title}}</a>
+            <a :href="url.url" v-for="url in store.headerLinks">{{url.title}}</a>
             <div class="my-button">Get in Toch!</div>
           </div>
         </div>
