@@ -1,5 +1,22 @@
-<script></script>
+<script>
+import AppNewsletter from "./AppNewsletter.vue";
 
-<template></template>
+export default {
+  components: {
+    AppNewsletter,
+  },
+  data() {
+    return {};
+  },
+  mounted() {},
+  methods: {},
+};
+</script>
+
+<template>
+    <div class="container">
+        <AppNewsletter />
+    </div>
+</template>
 
 <style scoped></style>
