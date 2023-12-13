@@ -33,7 +33,7 @@
 
 .my-service-text{
   color: #93856a;
-  font-weight: bold;
+  font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 2rem;
 }
@@ -44,6 +44,7 @@ h6{
 
 .my-span{
   padding-top:0.3rem;
+  text-align: center;
 }
 .my-card{
     background-color: #ce7c2a;

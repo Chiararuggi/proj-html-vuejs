@@ -40,7 +40,7 @@
   margin-top: 6rem;
   margin-bottom: 2rem;
   color: #9b927f;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .my-welcome{
