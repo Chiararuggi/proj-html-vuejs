@@ -73,6 +73,7 @@ export default {
 
 h4 {
   color: #ce7c2a;
+  font-weight: 500;
 }
 
 p {
