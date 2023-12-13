@@ -1,8 +1,11 @@
 <script>
+import { store } from "../store.js"
 export default {
   components: {},
   data() {
-    return {};
+    return {
+      store
+    };
   },
   mounted() {},
   methods: {},
@@ -43,11 +46,7 @@ export default {
         </div>
         <div class="col-8">
           <div class="d-flex align-items-center h-100 justify-content-end">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Training</a>
-            <a href="#">Blogs</a>
+            <a :href="url.url" v-for="url in this.store.headerLinks">{{url.title}}</a>
             <div class="my-button">Get in Toch!</div>
           </div>
         </div>
