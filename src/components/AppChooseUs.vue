@@ -46,7 +46,7 @@
     margin-top: 5rem;
     margin-bottom: 2rem;
     color: #93856a;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .my-about span{
