@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="my-contacts">
+  <div class="my-contacts py-2">
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -34,7 +34,7 @@ export default {
     </div>
   </div>
   <div class="container">
-    <div class="my-header">
+    <div class="my-header my-3">
       <div class="row">
         <div class="col-4">
           <div class="d-flex align-items-center h-100 justify-content-start">
@@ -57,8 +57,10 @@ export default {
 </template>
 
 <style scoped>
+
 .my-contacts {
   background-color: #7d7044;
+  color: white;
 }
 .my-button {
   background-color: #ce7c2a;
