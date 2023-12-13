@@ -21,7 +21,7 @@ export default {
     <AppNewsletter />
   </div>
   <div class="my-footer-container">
-    <div class="container">
+    <div class="container py-5">
       <div class="row">
         <div class="col-3">
           <h4>Get in Touch</h4>
@@ -75,9 +75,9 @@ export default {
         </div>
         <div class="col-3">
           <h4>Contact Me</h4>
+          <div class="my-userinfo" v-for="address in store.contacts">{{ address.address }}</div>
           <div class="my-userinfo" v-for="email in store.contacts">{{ email.email }}</div>
           <div class="my-userinfo" v-for="phone in store.contacts">{{ phone.phone }}</div>
-          <div class="my-userinfo" v-for="address in store.contacts">{{ address.address }}</div>
         </div>
       </div>
     </div>
@@ -100,10 +100,12 @@ export default {
 h4 {
   color: #ce7c2a;
   font-weight: 500;
+  font-size: 22px;
 }
 
 p {
   color: #8a8b8f;
+  font-size: 15px;
 }
 
 ul{
@@ -112,6 +114,8 @@ ul{
 
 li{
   list-style-type: none;
+  margin-bottom: 0.7rem;
+  font-size: 15px;
 }
 
 a{
@@ -122,6 +126,7 @@ a{
 .my-userinfo {
   color: #8a8b8f;
   margin-bottom: 1rem;
+  font-size: 15px;
 }
 
 hr{
