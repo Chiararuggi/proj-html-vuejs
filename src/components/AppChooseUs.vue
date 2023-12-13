@@ -45,7 +45,7 @@
     margin-left: 4rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
-    color: #93856a;
+    color: #7d7564;
     font-weight: 500;
 }
 

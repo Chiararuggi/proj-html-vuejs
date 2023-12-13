@@ -32,7 +32,7 @@
 <style scoped>
 
 .my-service-text{
-  color: #93856a;
+  color: #7d7564;
   font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 2rem;

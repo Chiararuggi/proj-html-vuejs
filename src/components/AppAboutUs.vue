@@ -39,7 +39,7 @@
 .my-aboutus{
   margin-top: 6rem;
   margin-bottom: 2rem;
-  color: #9b927f;
+  color: #7d7564;
   font-weight: 500;
 }
 

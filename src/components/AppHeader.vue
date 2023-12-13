@@ -67,12 +67,14 @@ export default {
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 30px;
+  font-size: 20px;
 }
 
 a {
   text-decoration: none;
   color: #88908e;
   margin-right: 2rem;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 20px;
 }
 </style>

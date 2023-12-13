@@ -44,7 +44,7 @@ export default {
   margin-bottom: 1rem;
 }
 .my-review-title {
-  color: #93856a;
+  color: #7d7564;
   font-weight: 500;
   margin-left: 1rem;
 }
