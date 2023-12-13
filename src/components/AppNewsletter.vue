@@ -33,6 +33,7 @@
   height: 15rem;
   position: relative;
   margin-top: 10rem;
+  margin-bottom: -125px;
   width: 80%;
 }
 

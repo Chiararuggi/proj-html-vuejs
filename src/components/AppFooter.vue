@@ -94,6 +94,7 @@ export default {
 
 <style scoped>
 .my-footer-container {
+  padding-top:125px;
   background-color: black;
 }
 
