@@ -64,6 +64,7 @@ h1{
 
 .my-choose-text{
     margin-left:1rem;
+    margin-right:1rem;
 }
 
 .my-firstchoose-container{

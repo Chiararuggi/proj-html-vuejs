@@ -29,19 +29,54 @@ export default {
       ><div class="my-container">
         <img src="/assets/b.png" class="my-sliderimg" />
         <div class="my-slider-text">
-          <h2>Welcome to <br>DogMilo Pets</h2>
+          <h2>Welcome to <br />DogMilo Pets</h2>
           <p>
-            Lorem ipsum is simply dummy text of the printing <br>and typesetting industry</p>
-            <div class="my-button-container d-flex justify-content-start">
-              <div class="my-firstbutton">Get Started</div>
-              <div class="my-secondbutton"><img src="/assets/play.png" class="my-play-img"></div>
+            Lorem ipsum is simply dummy text of the printing <br />and
+            typesetting industry
+          </p>
+          <div class="my-button-container d-flex justify-content-start">
+            <div class="my-firstbutton">Get Started</div>
+            <div class="my-secondbutton">
+              <img src="/assets/play.png" class="my-play-img" />
             </div>
-        </div>
-      </div></swiper-slide
-    >
+          </div>
+        </div></div
+    ></swiper-slide>
 
-    <swiper-slide></swiper-slide>
-    <swiper-slide></swiper-slide>
+    <swiper-slide
+      ><div class="my-container">
+        <img src="/assets/b.png" class="my-sliderimg" />
+        <div class="my-slider-text">
+          <h2>Welcome to <br />DogMilo Pets</h2>
+          <p>
+            Lorem ipsum is simply dummy text of the printing <br />and
+            typesetting industry
+          </p>
+          <div class="my-button-container d-flex justify-content-start">
+            <div class="my-firstbutton">Get Started</div>
+            <div class="my-secondbutton">
+              <img src="/assets/play.png" class="my-play-img" />
+            </div>
+          </div>
+        </div></div
+    ></swiper-slide>
+    <swiper-slide
+      ><div class="my-container">
+        <img src="/assets/b.png" class="my-sliderimg" />
+        <div class="my-slider-text">
+          <h2>Welcome to <br />DogMilo Pets</h2>
+          <p>
+            Lorem ipsum is simply dummy text of the printing <br />and
+            typesetting industry
+          </p>
+          <div class="my-button-container d-flex justify-content-start">
+            <div class="my-firstbutton">Get Started</div>
+            <div class="my-secondbutton">
+              <img src="/assets/play.png" class="my-play-img" />
+            </div>
+          </div>
+        </div></div
+    ></swiper-slide>
   </swiper>
 </template>
 
@@ -64,34 +99,33 @@ export default {
 }
 
 .my-container {
-  width: 100%; 
+  width: 100%;
 }
 
-.my-slider-text{
+.my-slider-text {
   width: 30%;
   position: absolute;
-  top:10rem;
+  top: 10rem;
   left: 20rem;
 }
 
-h2{
+h2 {
   color: white;
   font-size: 46px;
-
 }
 
-p{
-  margin-top:1rem;
+p {
+  margin-top: 1rem;
   color: white;
   margin-bottom: 1.4rem;
 }
 
-.my-play-img{
-  width:3rem;
+.my-play-img {
+  width: 3rem;
 }
 
-.my-firstbutton{
-  color:white;
+.my-firstbutton {
+  color: white;
   background-color: #ce7c2a;
   width: fit-content;
   margin-right: 1rem;
@@ -102,12 +136,11 @@ p{
   text-align: center;
 }
 
-.my-secondbutton{
-  color:white;
+.my-secondbutton {
+  color: white;
   background-color: #6fd0f8;
   width: fit-content;
   padding: 0.3rem;
   border-radius: 10px;
 }
 </style>
-
