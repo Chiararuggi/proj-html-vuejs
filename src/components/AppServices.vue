@@ -5,15 +5,15 @@
     <div
       class="d-flex flex-column justify-content-center align-items-center h-100"
     >
-      <h6>Service</h6>
-      <span>DogMilo Pet Care Services For Your Best Friends</span>
+      <span class="my-service-text">Service</span>
+      <h2>DogMilo Pet Care Services For Your Best Friends</h2>
       <div class="d-flex w-100 h-100 justify-content-between align-items-center">
         <div class="col-2">
           <div class="my-card">
             <img src="/assets/d-1.png" />
             <h6>Pet Sitting</h6>
             <span
-              >The readable content of a page when looking at its layout</span
+               class="my-span">The readable content of a page when looking at its layout</span
             >
             <div class="my-button">
               <img src="/assets/right.png" />
@@ -30,6 +30,21 @@
 </template>
 
 <style scoped>
+
+.my-service-text{
+  color: #93856a;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+h6{
+  margin-top: 1rem;
+}
+
+.my-span{
+  padding-top:0.3rem;
+}
 .my-card{
     background-color: #ce7c2a;
     border-radius: 100px;
@@ -39,7 +54,10 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
 }
 .my-card img{
     width:40%;
@@ -53,6 +71,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .my-button img{
