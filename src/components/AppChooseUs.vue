@@ -10,25 +10,25 @@
                 <img src="/assets/dog-icon.png">
                 <span>Choose Us</span>
             </div>
-            <h2>Why Choose Us?</h2>
-            <div class="d-flex">
+            <h1>Why Choose Us?</h1>
+            <div class="d-flex my-firstchoose-container">
                 <img src="/assets/w-3.png" class="my-choose-img">
                 <div class="my-choose-text">
-                    <h6>Safety First</h6>
+                    <h4>Safety First</h4>
                     <p>It is a long estabilished fact that a reader will be distructed by the readable content of a page when looking at its layout</p>
                 </div>
             </div>
-            <div class="d-flex ">
+            <div class="d-flex my-secondchoose-container">
                 <img src="/assets/w-2.png" class="my-choose-img">
                 <div class="my-choose-text">
-                    <h6>Play Yards</h6>
+                    <h4>Play Yards</h4>
                     <p>It is a long estabilished fact that a reader will be distructed by the readable content of a page when looking at its layout</p>
                 </div>
             </div>
-            <div class="d-flex justify-content-end">
+            <div class="d-flex my-thirdchoose-container">
                 <img src="/assets/w-1.png" class="my-choose-img">
                 <div class="my-choose-text">
-                    <h6>Monitor your Pets</h6>
+                    <h4>Monitor your Pets</h4>
                     <p>It is a long estabilished fact that a reader will be distructed by the readable content of a page when looking at its layout</p>
                 </div>
             </div>
@@ -38,10 +38,43 @@
 
 <style scoped>
 .my-img{
-    width: 100%;
+    width:100%;
+}
+
+.my-about{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color: #93856a;
+    font-weight: bold;
+}
+
+.my-about span{
+    margin-left: 1rem;
+}
+
+h1{
+    margin-left: 4rem;
+    margin-bottom: 1rem;
 }
 
 .my-choose-img{
     width: 10rem;
+}
+
+.my-choose-text{
+    margin-left:1rem;
+}
+
+.my-firstchoose-container{
+    margin-left:4rem;
+}
+
+.my-secondchoose-container{
+    margin-left:15rem;
+}
+
+.my-thirdchoose-container{
+    margin-left:30rem;
 }
 </style>
